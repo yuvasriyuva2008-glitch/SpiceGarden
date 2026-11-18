@@ -1,0 +1,40 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Home | Spice Garden{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to Spice Garden</h1>
+        <p>Experience the authentic taste of Indian cuisine.</p>
+        <a href="{% url 'menu' %}" class="btn">Explore Our Menu</a>
+    </div>
+</section>
+
+<section class="offer">
+    <h2>Special Offer!</h2>
+    <p>Enjoy delicious food with your family and friends.</p>
+</section>
+
+<section class="features">
+
+    <div class="feature-card">
+        <h3>Fresh Ingredients</h3>
+        <p>We prepare our dishes using fresh and quality ingredients.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Quality Food</h3>
+        <p>Enjoy delicious meals prepared with care.</p>
+    </div>
+
+    <div class="feature-card">
+        <h3>Best Service</h3>
+        <p>We provide friendly service and a welcoming atmosphere.</p>
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,102 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Menu | Spice Garden{% endblock %}
+
+{% block content %}
+
+<section class="page-heading">
+    <h1>Our Delicious Menu</h1>
+    <p>Discover the authentic taste of Indian cuisine.</p>
+</section>
+
+<section class="menu-container">
+
+    <div class="menu-card">
+        <img src="{% static 'images/idli.jpg' %}" alt="Idli">
+        <h3>Idli</h3>
+        <p>Soft and fluffy steamed rice cakes.</p>
+        <h4>₹40</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/dosa.jpg' %}" alt="Dosa">
+        <h3>Masala Dosa</h3>
+        <p>Crispy dosa filled with potato masala.</p>
+        <h4>₹80</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/pongal.jpg' %}" alt="Pongal">
+        <h3>Ven Pongal</h3>
+        <p>Traditional rice and lentil breakfast.</p>
+        <h4>₹60</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/poori.jpg' %}" alt="Poori">
+        <h3>Poori Masala</h3>
+        <p>Golden fried pooris served with masala.</p>
+        <h4>₹70</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/veg-biryani.jpg' %}" alt="Veg Biryani">
+        <h3>Veg Biryani</h3>
+        <p>Flavourful rice cooked with fresh vegetables.</p>
+        <h4>₹130</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/fried-rice.jpg' %}" alt="Fried Rice">
+        <h3>Veg Fried Rice</h3>
+        <p>Delicious rice tossed with fresh vegetables.</p>
+        <h4>₹110</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/paneer.jpg' %}" alt="Paneer">
+        <h3>Paneer Butter Masala</h3>
+        <p>Paneer cooked in creamy tomato gravy.</p>
+        <h4>₹160</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/chapati.jpg' %}" alt="Chapati">
+        <h3>Chapati</h3>
+        <p>Fresh soft Indian wheat flatbread.</p>
+        <h4>₹50</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/gobi.jpg' %}" alt="Gobi">
+        <h3>Gobi Manchurian</h3>
+        <p>Crispy cauliflower with spicy sauce.</p>
+        <h4>₹120</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/samosa.jpg' %}" alt="Samosa">
+        <h3>Samosa</h3>
+        <p>Crispy pastry filled with potato masala.</p>
+        <h4>₹30</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/ice-cream.jpg' %}" alt="Ice Cream">
+        <h3>Ice Cream</h3>
+        <p>Delicious and creamy dessert.</p>
+        <h4>₹60</h4>
+    </div>
+
+    <div class="menu-card">
+        <img src="{% static 'images/juice.jpg' %}" alt="Fresh Juice">
+        <h3>Fresh Fruit Juice</h3>
+        <p>Refreshing juice made from fresh fruits.</p>
+        <h4>₹50</h4>
+    </div>
+
+</section>
+
+{% endblock %}

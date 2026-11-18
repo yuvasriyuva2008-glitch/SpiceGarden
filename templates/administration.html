@@ -1,0 +1,54 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Administration | Spice Garden{% endblock %}
+
+{% block content %}
+
+<section class="page-heading">
+    <h1>Meet Our Administration Team</h1>
+    <p>The people behind our restaurant's success.</p>
+</section>
+
+<section class="team-container">
+
+    <div class="team-card">
+        <img src="{% static 'images/manager.jpg' %}" alt="Restaurant Manager">
+        <h3>Arun Kumar</h3>
+        <p>General Manager</p>
+    </div>
+
+    <div class="team-card">
+        <img src="{% static 'images/chef.jpg' %}" alt="Head Chef">
+        <h3>Priya Sharma</h3>
+        <p>Head Chef</p>
+    </div>
+
+    <div class="team-card">
+        <img src="{% static 'images/assistant.jpg' %}" alt="Assistant Manager">
+        <h3>Rahul Kumar</h3>
+        <p>Assistant Manager</p>
+    </div>
+
+    <div class="team-card">
+        <img src="{% static 'images/cashier.jpg' %}" alt="Cashier">
+        <h3>Anjali Devi</h3>
+        <p>Cashier</p>
+    </div>
+
+    <div class="team-card">
+        <img src="{% static 'images/supervisor.jpg' %}" alt="Supervisor">
+        <h3>Karthik Raj</h3>
+        <p>Restaurant Supervisor</p>
+    </div>
+
+    <div class="team-card">
+        <img src="{% static 'images/staff.jpg' %}" alt="Customer Service">
+        <h3>Meena Lakshmi</h3>
+        <p>Customer Service Executive</p>
+    </div>
+
+</section>
+
+{% endblock %}
